@@ -69,6 +69,11 @@ body.lock{
   margin-left: 100px;
   
 }
+ a.logo_ h2{
+  display: block;
+  color: black;
+  font-size: 80px;
+}
 .top_menu_box {
   padding: 20px;
   background-color: black;
@@ -622,10 +627,8 @@ label {
   padding-bottom: 130px;
 }
 .laserlab_company_containar_title{
-  width: 80%;
-  margin-left: auto;
-   padding-bottom: 93px;
-  padding-top: 115px;
+  
+   
 }
 .laserlab_company_containar_title h2{
   font-size: 90px;
@@ -642,6 +645,12 @@ label {
   font-size: 20px;
   line-height: 30px;
   color: white;
+}
+.laserlab_company_containar_title__{
+  width: 80%;
+  margin-left: auto;
+  padding-bottom: 93px;
+  padding-top: 115px;
 }
 .laserlab_content_containar{
   display: flex;
