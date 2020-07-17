@@ -678,7 +678,8 @@ label {
   line-height: 30px;
 }
 .laserlab_content_text h3{
-  font-family: Arial, "Open sans", sans-serif;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
   font-size: 40px;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -689,25 +690,24 @@ label {
 }
 
 .wrapper .active { 
-  color: white; 
+  color: black; 
   opacity: 1;
   border-bottom: 1px solid white;
   padding-bottom: 10px;
 }
 .wrapper{
-  padding-top: 120px;
-  background-color:black;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color:#dedfe0;
   position: relative;
   height: 100%;
 }
 
 .removal_zones_title {
-  font-size: 90px;
+  font-size: 30px;
   font-family: 'Cormorant Garamond', serif;
   font-weight: 300;
-  text-align: center;
-  padding-bottom: 80px;
-  color: white;
+  color: black;
   position: relative;
   z-index: 20;
 }
@@ -720,11 +720,13 @@ label {
   
 }
 .tab_content{
-  width: 100%;
+  width: 90%;
   height: 500px;
   display: flex;
   justify-content: space-between;
-  background-color:  white;
+  background-color:  #dedfe0;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 .removal_zones_content{
@@ -770,7 +772,7 @@ top: 5px;
 left:-30px;
 }
 .removal_zones_content_img{
-  
+ 
 }
 
 .tab_item {
@@ -783,17 +785,15 @@ left:-30px;
     width: 400px;
     display:flex;
     flex-direction: column;
-    align-items: center;
     width: 25%;
-    background-color: black;
-    
-
+    background-color: #dedfe0;
+     padding-top: 90px;
 }
 
 .tab {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 300;
-  color: white;
+  color:black;
   font-size: 40px;
   line-height: 30px;
   white-space: nowrap;
@@ -802,16 +802,21 @@ left:-30px;
   width: 200px;
   text-align: center;
   padding-bottom: 10px;
+ 
+}
+
+.tab span{
+  color: red
 }
 .tab:hover{
   opacity: 1;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
   padding-bottom: 10px
 }
 
 .removal_zones_btn {
+  width: 230px;
   margin-top: 20px;
-  background-color: red;
 }
 
 .our_staf {
@@ -829,8 +834,8 @@ left:-30px;
   margin-left: auto;
 }
 .our_staf_container_ h2{
- font-family: 'Cormorant', serif;
-  font-weight: 700;
+ font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
   color:white;
   font-size: 60px;
   padding-bottom: 50px;
@@ -873,6 +878,8 @@ position: relative;
   font-size: 20px;
   line-height: 30px;
 }
+
+
 
 /*
 @media (min-width: 250px) and (max-width: 640px) {

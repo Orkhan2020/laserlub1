@@ -78,6 +78,10 @@ $(".wrapper .tab").click(function() {
   $(".tab_item").hide().eq($(this).index()).fadeIn()
 }).eq(0).addClass("active");
 
+
+
+
+
 function ibg(){
 	$.each($('.ibg'), function(index, val) {
 		if($(this).find('img').length>0){
