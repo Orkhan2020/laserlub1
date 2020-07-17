@@ -776,6 +776,7 @@ left:-30px;
 .tab_item {
   display: flex;
   justify-content: center;
+  width: 75%;
 }
 
 .tabs {
@@ -783,13 +784,9 @@ left:-30px;
     display:flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
-    right: 0;
-    bottom: 0px;
-    z-index: 13;
+    width: 25%;
     background-color: black;
-    padding-top: 350px;
-    height: 100%;
+    
 
 }
 
@@ -813,12 +810,8 @@ left:-30px;
 }
 
 .removal_zones_btn {
+  margin-top: 20px;
   background-color: red;
-  position: absolute;
-  right: 0;
-  bottom: 5%;
-  z-index: 14;
-  margin-right: 50px;
 }
 
 .our_staf {
