@@ -689,7 +689,7 @@ label {
   padding-bottom: 10px;
 }
 .wrapper{
-  padding-top: 50px;
+  padding-top: 120px;
   background-color:black;
   position: relative;
   height: 100%;
@@ -700,7 +700,7 @@ label {
   font-family: 'Cormorant', serif;
   font-weight: 700;
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
   color: white;
   position: relative;
   z-index: 20;
@@ -744,7 +744,7 @@ label {
   display: flex;
   flex-wrap: wrap;
   font-family: Arial, "Open sans", sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 30px;
   margin-bottom: 15px;
   color: black;
@@ -754,14 +754,14 @@ label {
 }
 .removal_zones_text::before{
 content: '';
-width: 15px;
-height: 15px;
+width: 24px;
+height: 24px;
 background-image: url(../img/ok.svg);
 background-repeat: no-repeat;
-background-size: 15px 15px;
+background-size: 24px 24px;
 position: absolute;
-top: 10px;
-left:-20px;
+top: 5px;
+left:-30px;
 }
 .removal_zones_content_img{
   width: 500px;
@@ -783,7 +783,7 @@ left:-20px;
     bottom: 0px;
     z-index: 13;
     background-color: black;
-    padding-top: 200px;
+    padding-top: 350px;
     height: 100%;
 
 }
@@ -810,10 +810,10 @@ left:-20px;
 .removal_zones_btn {
   background-color: red;
   position: absolute;
-  right: 3%;
-  bottom: 2%;
+  right: 0;
+  bottom: 5%;
   z-index: 14;
-  width: 300px;
+  margin-right: 50px;
 }
 
 .our_staf {
