@@ -574,6 +574,7 @@ label {
   width: 1170px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
   padding: 150px 0 150px 0;
@@ -673,6 +674,7 @@ label {
 
 .removal_zones{
   margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .wrapper .active { 
@@ -683,7 +685,7 @@ label {
 }
 .wrapper{
   padding-top: 50px;
-  background-color: black;
+  background-color:black;
   position: relative;
   height: 100%;
 }
@@ -697,6 +699,9 @@ label {
   color: white;
   position: relative;
   z-index: 20;
+}
+.removal_zones_title:first-letter{
+  color: red;
 }
 .wrapper_removal_zone{
   display:flex;
@@ -800,12 +805,56 @@ left:-20px;
 .removal_zones_btn {
   background-color: red;
   position: absolute;
-  right: 0;
-  bottom: 0px;
+  right: 3%;
+  bottom: 2%;
   z-index: 14;
-  width: 400px;
+  width: 300px;
 }
 
+.our_staf {
+  margin-bottom: 120px;
+}
+.our_staf_container {
+  background-color: black;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.our_staf_container_{
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.our_staf_container_ h2{
+ font-family: 'Cormorant', serif;
+  font-weight: 700;
+  color:white;
+  font-size: 60px;
+  padding-bottom: 50px;
+  margin-left: 30px;
+}
+.our_staf_cards{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
+}
+.our_staf_card{
+margin-left: 20px;
+}
+.our_staf_card img{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.our_staf_card span{
+  text-align: center;
+  display: block;
+  color: white;
+  font-family: Arial, "Open sans", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
 
 /*
 @media (min-width: 250px) and (max-width: 640px) {
