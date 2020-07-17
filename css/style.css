@@ -671,7 +671,12 @@ label {
   font-size: 20px;
   line-height: 30px;
 }
-
+.laserlab_content_text h3{
+  font-family: Arial, "Open sans", sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
 .removal_zones{
   margin-top: 120px;
   margin-bottom: 120px;
