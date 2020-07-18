@@ -919,7 +919,7 @@ position: relative;
 }
 
 .footer-social-item:nth-child(1n+2) {
-  margin-left: 20px;
+  margin-left: 60px;
 }
 
 .footer-social-link {
@@ -954,7 +954,6 @@ position: relative;
 }
 
 .footer_img_logo{
-  text-align: center;
   width: 320px;
 }
 
