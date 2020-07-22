@@ -100,12 +100,12 @@ function readMore() {
 
   if (dots.style.display === "none") {
   	dots.style.display="inline";
-  	btn.innerHTML="READ MORE";
+  	btn.innerHTML="Читать далее";
   	more.style.display="none";
   }
   else {
   	dots.style.display="none";
-  	btn.innerHTML="HIDE";
+  	btn.innerHTML="СКРЫТЬ";
   	more.style.display="inline";
   }
 }
