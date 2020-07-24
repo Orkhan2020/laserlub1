@@ -109,6 +109,9 @@ function readMore() {
   	more.style.display="inline";
   }
 }
+
+
+//magnificPopup
 $(document).ready(function() {
 $(".gallery").magnificPopup({
       delegate: 'a',
@@ -122,3 +125,13 @@ $(".gallery").magnificPopup({
 });
 
 
+//accardion
+$(document).ready(function() {
+  $('.questions__title').click(function(event) {
+    if($('.container_questions_accordion').hasClass('one')){
+      $('.questions__title').not($(this)).removeClass('active');
+      $('.questions__text').not($(this).next()).slideUp(300);
+    }
+    $(this).toggleClass('active').next().slideToggle(300);
+  });
+});
