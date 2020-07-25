@@ -69,6 +69,32 @@ $(document).ready(function(){
 		appendDots:$('.dots-container')
 	});
 });
+$(document).ready(function(){
+  $('.testimonials__').slick({
+    arrows:true,
+    dots:false,
+    slidesToShow:3,
+    autoplay:true,
+    speed:1000,
+    autoplaySpeed:3000,
+    adaptiveHeight: true,
+    responsive:[
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow:1
+        }
+      },
+      {
+        breakpoint: 550,
+        settings: {
+          slidesToShow:1
+        }
+      }
+    ],
+    appendDots:$('.dots-testimonial_')
+  });
+});
 
 
 
