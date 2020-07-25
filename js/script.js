@@ -71,7 +71,7 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
   $('.testimonials__').slick({
-    arrows:true,
+    arrows:false,
     dots:false,
     slidesToShow:3,
     autoplay:true,
